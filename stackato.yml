@@ -1,0 +1,15 @@
+name: Moodle-test
+memory: 128
+framework:
+ type: php
+services:
+ moodle-test: mysql
+ moodle-test: filesystem
+
+hooks:
+ pre-staging:
+  - bash stackato-pre-setup.sh
+ post-staging:
+  - bash stackato-setup.sh
+ pre-running:
+  - sh completeinstall.sh

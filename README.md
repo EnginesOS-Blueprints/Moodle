@@ -1,0 +1,2 @@
+ReadMe for Moodle
+Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. You can download the software onto your own web server or ask one of our knowledgable Moodle Partners to assist you. 
