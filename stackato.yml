@@ -5,6 +5,10 @@ framework:
 services:
  moodle-test: mysql
  moodle-test: filesystem
+requirements:
+ running:
+  ubuntu:
+   - php5-xmlrpc php5-curl php5-intl 
 
 hooks:
  pre-staging:
