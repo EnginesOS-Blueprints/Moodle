@@ -1,10 +1,10 @@
 name: Moodle-test
-memory: 128
+memory: 256
 framework:
  type: php
 services:
- moodle-test: mysql
  moodle-test: filesystem
+ moodle-test: mysql
 requirements:
  running:
   ubuntu:
